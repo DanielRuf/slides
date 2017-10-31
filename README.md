@@ -1,4 +1,7 @@
-* Download Caddy from https://caddyserver.com/download
-* Extract archive and place binary in slides folder
-* Execute Caddy binary
-* run `npm run export`
+## Slides
+
+### Setup
+`npm install`
+
+### PDF export
+`npm run export` or `npm run export-simple` if you already have a server (eg. Caddy) which serves index.html.
