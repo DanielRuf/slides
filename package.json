@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "export": "decktape reveal http://localhost:2015 slides.pdf"
+    "export": "node server.js | decktape reveal http://localhost:2015 slides.pdf",
+    "export-simple": "decktape reveal http://localhost:2015 slides.pdf"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/DanielRuf/slides#readme",
   "dependencies": {
     "decktape": "^2.4.3",
+    "express": "^4.16.2",
     "reveal.js": "^3.5.0"
   }
 }
